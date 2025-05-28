@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to Bright Future Academy</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Header with Navigation -->
+  <header>
+    <div class="header-content">
+      <img src="images/logo.jpg" alt="School Logo" class="logo" />
+      <h1>Bright Future Academy</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Slideshow -->
+  <section class="hero">
+    <div class="slideshow-container">
+      <!-- Slide 1 -->
+      <div class="mySlides fade">
+        <img src="images/student teacher engagement.jpg" alt="Students learning in classroom">
+        <div class="slide-text">
+          <h2>Inspiring Young Minds for a Brighter Tomorrow</h2>
+          <p>Welcome to Bright Future Academy — where excellence begins.</p>
+          <a href="admissions.html" class="btn">Apply Now</a>
+        </div>
+      </div>
+      
+      <!-- Slide 2 -->
+      <div class="mySlides fade">
+        <img src="images/science experiments.jpg" alt="Students conducting science experiments">
+        <div class="slide-text">
+          <h2>Hands-On Learning Experiences</h2>
+          <p>Our state-of-the-art facilities foster curiosity and innovation.</p>
+          <a href="academics.html" class="btn">Explore Academics</a>
+        </div>
+      </div>
+      
+      <!-- Slide 3 -->
+      <div class="mySlides fade">
+        <img src="images/student sports activity.jpg" alt="Students playing sports">
+        <div class="slide-text">
+          <h2>Holistic Development</h2>
+          <p>We nurture both academic and extracurricular talents.</p>
+          <a href="about.html" class="btn">Our Philosophy</a>
+        </div>
+      </div>
+      
+      <!-- Slide 4  -->
+      <div class="mySlides fade">
+        <img src="images/library area.jpg" alt="Study Area">
+        <div class="slide-text">
+          <h2>World-Class Learning Resources</h2>
+          <p>Our extensive library supports independent learning and research.</p>
+        </div>
+      </div>
+      
+      <!-- Slide 5  -->
+      <div class="mySlides fade">
+        <img src="images/award ceremony.jpg" alt="Award winning">
+        <div class="slide-text">
+          <h2>Celebrating Achievements</h2>
+          <p>Join our tradition of academic excellence and success.</p>
+          <a href="admissions.html" class="btn">Join Our Community</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Navigation dots -->
+    <div class="slide-dots">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+  </section>
+
+  <!-- About Preview -->
+  <section class="preview">
+    <h3>Who We Are</h3>
+    <p>Bright Future Academy is a private junior and secondary school focused on academic excellence, holistic development, and character building. Our dedicated faculty and modern facilities create an environment where students can thrive academically, socially, and emotionally.</p>
+    <a href="about.html" class="btn">Learn More</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Bright Future Academy | All rights reserved.</p>
+  </footer>
+  
+  <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">↑</button>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
